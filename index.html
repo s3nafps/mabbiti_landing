@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabbiti — Discover the Best Places Around You</title>
+    <meta name="description" content="Find hotels, hostels, houses, and restaurants in Algeria with Mabbiti. Explore the best spots around you with our mobile app.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mabbiti.dz/">
+    <meta property="og:title" content="Mabbiti — Discover the Best Places Around You">
+    <meta property="og:description" content="Hotels, hostels, restaurants and more — all in one app.">
+    <meta property="og:image" content="https://mabbiti.dz/assets/img/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mabbiti.dz/">
+
+    <!-- Performance: Preconnect & Preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="/assets/css/style.css" as="style">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav aria-label="Main Navigation">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <div class="logo-icon">
+                    <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 28V12L20 18L28 12V28" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="logo-text">MABBITI</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home" data-i18n="nav-home">Home</a>
+                <a href="#features" data-i18n="nav-about">About</a>
+                <a href="#app" data-i18n="nav-app">App</a>
+                <a href="#contact" data-i18n="nav-contact">Contact</a>
+                
+                <div class="lang-switcher-pill">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="ar">AR</button>
+                </div>
+            </div>
+
+            <div class="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <!-- Decorative Elements -->
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+        <div class="hero-pattern"></div>
+
+        <div class="container hero-grid">
+            <div class="hero-content reveal active">
+                <span class="hero-tag" data-i18n="hero-tag">Available on Google Play</span>
+                <h1 data-i18n="hero-h1">Discover the Best Places Around You</h1>
+                <p data-i18n="hero-sub">Hotels, hostels, restaurants and more — find the perfect spot in Algeria with Mabbiti's intuitive map exploration.</p>
+                <div class="hero-ctas">
+                    <a href="https://play.google.com/store/apps" class="btn btn-primary">
+                        <span data-i18n="hero-cta-play">Download App</span>
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M0 0.5L0 15.5L3 15.5L3 0.5L0 0.5ZM4.5 0.5L4.5 15.5L14 8L4.5 0.5Z"/></svg>
+                    </a>
+                    <a href="#app" class="btn btn-outline" data-i18n="hero-cta-more">Learn More</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal shadow-2xl">
+                <div class="phone-mockup">
+                    <div class="phone-top">
+                        <div class="phone-speaker"></div>
+                    </div>
+                    <div class="phone-screen">
+                        <div class="screen-box">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="screen-lines">
+                            <div class="screen-line"></div>
+                            <div class="screen-line short"></div>
+                        </div>
+                        <div class="screen-grid">
+                            <div class="grid-item"></div>
+                            <div class="grid-item"></div>
+                        </div>
+                        <div class="grid-item" style="height: 100px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="feat-grid-container">
+                <div class="feature-item reveal">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>
+                    </div>
+                    <div>
+                        <h3 data-i18n="feat-1-title">Explore on Map</h3>
+                        <p data-i18n="feat-1-desc">Find nearby spots visually and get directions instantly.</p>
+                    </div>
+                </div>
+                <div class="feature-item reveal" style="transition-delay: 0.1s;">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+                    </div>
+                    <div>
+                        <h3 data-i18n="feat-2-title">Browse Categories</h3>
+                        <p data-i18n="feat-2-desc">Hotels, hostels, houses & more organized for you.</p>
+                    </div>
+                </div>
+                <div class="feature-item reveal" style="transition-delay: 0.2s;">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                    <div>
+                        <h3 data-i18n="feat-3-title">Read Reviews</h3>
+                        <p data-i18n="feat-3-desc">Real ratings from real users across Algeria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Section -->
+    <section id="app" style="background: var(--navy); color: white; padding: 100px 0;">
+        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+            <div class="app-content reveal">
+                <h2 style="color: white; font-size: 3rem; margin-bottom: 2rem;" data-i18n="app-h2">Available Now on Android</h2>
+                <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 3rem;">
+                    <div style="display: flex; gap: 1rem; align-items: center;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span data-i18n="app-li-1">Instant booking for hotels and hostels</span>
+                    </div>
+                    <div style="display: flex; gap: 1rem; align-items: center;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span data-i18n="app-li-2">Real-time location based recommendations</span>
+                    </div>
+                    <div style="display: flex; gap: 1rem; align-items: center;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <span data-i18n="app-li-3">Verified user reviews and ratings</span>
+                    </div>
+                </div>
+                
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="https://play.google.com/store/apps" class="btn btn-primary">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M0 0.5L0 15.5L3 15.5L3 0.5L0 0.5ZM4.5 0.5L4.5 15.5L14 8L4.5 0.5Z"/></svg>
+                        Google Play
+                    </a>
+                    <div style="opacity: 0.5; filter: grayscale(1); display: flex; align-items: center; gap: 1rem; border: 1px solid rgba(255,255,255,0.1); padding: 0.75rem 1.5rem; border-radius: 12px;">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.308.085-1.071.215-1.467.215-.395 0-1.071-.13-1.467-.215-.771-.211-1.146-.119-1.254-.116-.84.025-2.074.834-2.454 1.58-.38.745-.487 2.05-.14 3.422.348 1.372.955 2.502 1.464 3.037.51.535 1.196.84 1.52.84h.01c.31 0 .99-.307 1.747-.307.758 0 1.438.307 1.748.307h.009c.325 0 1.01-.305 1.52-.84.51-.535 1.065-1.55 1.413-2.922.348-1.372.197-2.678.14-3.422Z"/></svg>
+                        <div style="display: flex; flex-direction: column;">
+                            <span style="font-size: 0.6rem; opacity: 0.7;">Download on the</span>
+                            <span style="font-size: 0.9rem; font-weight: 700;">App Store</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app-mockup reveal" style="transform: rotate(5deg);">
+                 <div class="phone-mockup">
+                    <div class="phone-top">
+                        <div class="phone-speaker"></div>
+                    </div>
+                    <div class="phone-screen" style="background: var(--navy-light);">
+                        <div class="screen-box" style="background: var(--primary); color: white; border: none;">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 28V12L20 18L28 12V28" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="screen-lines">
+                            <div class="screen-line" style="background: white; opacity: 0.2;"></div>
+                            <div class="screen-line short" style="background: white; opacity: 0.2;"></div>
+                        </div>
+                        <div class="screen-grid">
+                            <div class="grid-item" style="background: white; opacity: 0.05;"></div>
+                            <div class="grid-item" style="background: white; opacity: 0.05;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Info -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col reveal">
+                    <h4 data-i18n="footer-contact-h4">Contact Us</h4>
+                    <div class="footer-contact-info">
+                        <div class="contact-group">
+                            <span style="font-weight: 700; color: var(--navy);">El Amin Ouahab</span>
+                            <span>0558858084</span>
+                            <a href="mailto:aminouah@yahoo.fr" style="font-size: 0.8rem; color: var(--primary);">aminouah@yahoo.fr</a>
+                        </div>
+                        <div class="contact-group">
+                            <span style="font-weight: 700; color: var(--navy);">Tarek Berkane</span>
+                            <span>0559352230</span>
+                            <a href="mailto:tarekg320@gmail.com" style="font-size: 0.8rem; color: var(--primary);">tarekg320@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-col reveal" style="transition-delay: 0.1s;">
+                    <h4 data-i18n="footer-links-h4">Legal</h4>
+                    <div class="footer-links">
+                        <a href="/privacy-policy.html" data-i18n="link-privacy">Privacy Policy</a>
+                        <a href="/terms-of-use.html" data-i18n="link-terms">Terms of Use</a>
+                    </div>
+                </div>
+
+                <div class="footer-col reveal" style="transition-delay: 0.2s;">
+                    <h4 data-i18n="footer-social-h4">Social</h4>
+                    <div class="social-icons">
+                        <div class="social-box"></div>
+                        <div class="social-box"></div>
+                        <div class="social-box"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form Integrated -->
+            <div class="contact-form reveal" style="margin-top: 40px; border-top: 1px solid #e2e8f0; padding-top: 40px;">
+                <form id="contactForm" action="mailto:aminouah@yahoo.fr" method="POST" enctype="text/plain" style="max-width: 600px; margin: 0 auto;">
+                    <div class="sr-only">
+                        <label for="website_honeypot">If you see this field, do not fill it.</label>
+                        <input type="text" id="website_honeypot" name="website_honeypot" value="">
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                        <input type="text" id="name" name="name" required placeholder="Full Name" style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px;" data-i18n="form-name">
+                        <input type="email" id="email" name="email" required placeholder="Email Address" style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px;" data-i18n="form-email">
+                    </div>
+                    <textarea id="message" name="message" rows="4" required placeholder="Your Message" style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 1rem;" data-i18n="form-message"></textarea>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;" data-i18n="form-send">Send Message</button>
+                    <p id="successMessage" style="color: #28a745; margin-top: 1rem; display: none; text-align: center;" data-i18n="form-success">Message sent successfully!</p>
+                </form>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="copyright">© 2025 SPAS Mabbiti.<br>All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

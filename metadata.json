@@ -1,0 +1,8 @@
+{
+  "name": "MABBITI Landing Page",
+  "description": "High-performance landing page for Mabbiti - find hotels, hostels, and restaurants in Algeria.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
