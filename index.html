@@ -149,35 +149,35 @@
     </section>
 
     <!-- Mobile App Section -->
-    <section id="app" style="background: var(--navy); color: white; padding: 100px 0;">
-        <div class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+    <section id="app" class="app-section">
+        <div class="container app-section-container">
             <div class="app-content reveal">
-                <h2 style="color: white; font-size: 3rem; margin-bottom: 2rem;" data-i18n="app-h2">Available Now on Android</h2>
-                <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 3rem;">
-                    <div style="display: flex; gap: 1rem; align-items: center;">
+                <h2 class="app-heading" data-i18n="app-h2">Available Now on Android</h2>
+                <div class="app-features-list">
+                    <div class="app-feature-item">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         <span data-i18n="app-li-1">Instant booking for hotels and hostels</span>
                     </div>
-                    <div style="display: flex; gap: 1rem; align-items: center;">
+                    <div class="app-feature-item">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         <span data-i18n="app-li-2">Real-time location based recommendations</span>
                     </div>
-                    <div style="display: flex; gap: 1rem; align-items: center;">
+                    <div class="app-feature-item">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
                         <span data-i18n="app-li-3">Verified user reviews and ratings</span>
                     </div>
                 </div>
                 
-                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <div class="app-buttons">
                     <a href="https://play.google.com/store/apps" class="btn btn-primary">
                         <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M0 0.5L0 15.5L3 15.5L3 0.5L0 0.5ZM4.5 0.5L4.5 15.5L14 8L4.5 0.5Z"/></svg>
                         Google Play
                     </a>
-                    <div style="opacity: 0.5; filter: grayscale(1); display: flex; align-items: center; gap: 1rem; border: 1px solid rgba(255,255,255,0.1); padding: 0.75rem 1.5rem; border-radius: 12px;">
+                    <div class="app-store-placeholder">
                         <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.308.085-1.071.215-1.467.215-.395 0-1.071-.13-1.467-.215-.771-.211-1.146-.119-1.254-.116-.84.025-2.074.834-2.454 1.58-.38.745-.487 2.05-.14 3.422.348 1.372.955 2.502 1.464 3.037.51.535 1.196.84 1.52.84h.01c.31 0 .99-.307 1.747-.307.758 0 1.438.307 1.748.307h.009c.325 0 1.01-.305 1.52-.84.51-.535 1.065-1.55 1.413-2.922.348-1.372.197-2.678.14-3.422Z"/></svg>
-                        <div style="display: flex; flex-direction: column;">
-                            <span style="font-size: 0.6rem; opacity: 0.7;">Download on the</span>
-                            <span style="font-size: 0.9rem; font-weight: 700;">App Store</span>
+                        <div class="app-store-text">
+                            <span>Download on the</span>
+                            <strong>App Store</strong>
                         </div>
                     </div>
                 </div>
@@ -246,21 +246,21 @@
             </div>
 
             <!-- Contact Form Integrated -->
-            <div class="contact-form reveal" style="margin-top: 40px; border-top: 1px solid #e2e8f0; padding-top: 40px;">
-                <form id="contactForm" action="mailto:aminouah@yahoo.fr" method="POST" enctype="text/plain" style="max-width: 600px; margin: 0 auto;">
+            <div class="contact-form-container reveal">
+                <form id="contactForm" action="mailto:aminouah@yahoo.fr" method="POST" enctype="text/plain" class="contact-form-inner">
                     <div class="sr-only">
                         <label for="website_honeypot">If you see this field, do not fill it.</label>
                         <input type="text" id="website_honeypot" name="website_honeypot" value="">
                     </div>
                     
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
-                        <input type="text" id="name" name="name" required placeholder="Full Name" style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px;" data-i18n="form-name">
-                        <input type="email" id="email" name="email" required placeholder="Email Address" style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px;" data-i18n="form-email">
+                    <div class="contact-form-row">
+                        <input type="text" id="name" name="name" required placeholder="Full Name" class="form-input" data-i18n="form-name">
+                        <input type="email" id="email" name="email" required placeholder="Email Address" class="form-input" data-i18n="form-email">
                     </div>
-                    <textarea id="message" name="message" rows="4" required placeholder="Your Message" style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 1rem;" data-i18n="form-message"></textarea>
+                    <textarea id="message" name="message" rows="4" required placeholder="Your Message" class="form-input text-area" data-i18n="form-message"></textarea>
                     
-                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;" data-i18n="form-send">Send Message</button>
-                    <p id="successMessage" style="color: #28a745; margin-top: 1rem; display: none; text-align: center;" data-i18n="form-success">Message sent successfully!</p>
+                    <button type="submit" class="btn btn-primary submit-btn" data-i18n="form-send">Send Message</button>
+                    <p id="successMessage" class="success-message" data-i18n="form-success">Message sent successfully!</p>
                 </form>
             </div>
 
